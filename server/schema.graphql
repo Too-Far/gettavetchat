@@ -1,0 +1,14 @@
+type Query {
+    info: String!
+    feed: [Chat!]!
+}
+type Mutation {
+    post(message: String!): Chat
+}
+type Chat {
+    id: ID!
+    message: String!
+}
+type Subscription {
+    newChat: Chat
+}

@@ -1,0 +1,11 @@
+type Chat {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  message: String!
+}
+
+
+
+
+ 
