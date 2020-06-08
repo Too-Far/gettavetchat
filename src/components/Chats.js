@@ -1,8 +1,10 @@
 import React from 'react'
 import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
-// var parse = require('date-fns/parse')
-// var format = require('date-fns/format')
+
+/*
+ This component creates the individual "cards" that display the message and created at data. Info is called in chatspagelist component.
+*/
 
 class Chat extends React.Component {
   

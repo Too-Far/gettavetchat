@@ -9,6 +9,10 @@ import Input from '@material-ui/core/Input'
 import InputAdornment from '@material-ui/core/InputAdornment'
 import Icon from '@material-ui/core/Icon'
 
+/*
+This component creates the message entry functionality and sends the data to the db through GQI via the handlChat and CREATE_DRAFT_CONTENT fucntions at the bottom of this file. 
+*/
+
 class CreateChat extends React.Component {
   state = {
     message: '',
